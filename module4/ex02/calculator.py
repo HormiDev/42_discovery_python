@@ -6,5 +6,8 @@ num2 = int(input("Give me the second number: "))
 print("Thank you!")
 print(str(num1), "+", str(num2), "=", str(num1 + num2))
 print(str(num1), "-", str(num2), "=", str(num1 - num2))
-print(str(num1), "/", str(num2), "=", str(int(num1 / num2)))
+if (num2 != 0):
+    print(str(num1), "/", str(num2), "=", str(int(num1 / num2)))
+else:
+    print("Error: Cannot divide by 0")
 print(str(num1), "*", str(num2), "=", str(num1 * num2))
