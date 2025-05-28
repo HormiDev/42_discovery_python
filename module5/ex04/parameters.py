@@ -2,4 +2,4 @@
 
 import sys
 
-print(str(len(sys.argv) - 1))
+print("Number of parameters:", str(len(sys.argv) - 1))

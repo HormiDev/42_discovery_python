@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-Original_array = [2, 8, 9, 48, 8, 22, -12, 2]
+Original_array = [2, 8, 5, 48, 8, 22, -12, 2]
 New_array = []
 i = 0
 array_len = len(Original_array)
